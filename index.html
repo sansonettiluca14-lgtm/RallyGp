@@ -10,5 +10,32 @@
 </head>
 <body>
 <script type="module" src="./src/main.js"></script>
-</body>
+<div id="controls">
+  <button id="left">◀</button>
+  <button id="right">▶</button>
+  <button id="brake">■</button>
+  <button id="gas">▲</button>
+</div>
+
+<style>
+#controls {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  pointer-events: none;
+}
+
+#controls button {
+  width: 70px;
+  height: 70px;
+  font-size: 26px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  pointer-events: auto;
+}
+</style></body>
 </html>
