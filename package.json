@@ -1,0 +1,11 @@
+{
+  "name": "rallygp3d",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve ."
+  },
+  "dependencies": {
+    "three": "^0.158.0"
+  }
+}
